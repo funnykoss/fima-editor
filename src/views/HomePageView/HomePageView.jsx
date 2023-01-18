@@ -1,6 +1,10 @@
-import Header from "../../components/Header/Header";
+import heroImage from "../../images/heroImg.jpg";
 
 const HomePageView = () => {
-  return <Header />;
+  return (
+    <>
+      <img src={heroImage} alt="heroImg" />
+    </>
+  );
 };
 export default HomePageView;
