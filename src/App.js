@@ -1,6 +1,5 @@
-import "./App.css";
 import { Route, Routes } from "react-router-dom";
-
+import "./App.css";
 import HomePageView from "./views/HomePageView/HomePageView";
 import Layout from "./components/Layout";
 import About from "./components/About";
@@ -9,7 +8,7 @@ import Contacts from "./components/Contacts/Contacts";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePageView />} />
@@ -18,7 +17,7 @@ function App() {
           <Route path="contacts" element={<Contacts />} />
         </Route>
       </Routes>
-    </div>
+    </>
   );
 }
 
