@@ -14,11 +14,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy -p",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "netlify deploy -p"
   },
   "eslintConfig": {
     "extends": [
