@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <>
       <div className={s.app}>
-        <header>
+        <header className={s.header}>
           <Header />
         </header>
         <main>

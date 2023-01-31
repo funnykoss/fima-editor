@@ -1,0 +1,16 @@
+/* .navLink{
+    text-decoration: none;
+} */
+.navList{
+ display: flex;
+ flex-direction: column;
+ justify-content: start;   
+}
+
+.navItem{
+    font-size:30px
+}
+
+.navItem:not(:last-child){
+margin-bottom: 50px;
+}

@@ -1,3 +1,7 @@
 .app{
     display: flex;
 }
+
+.header{
+    padding: 20px 30px;
+}
