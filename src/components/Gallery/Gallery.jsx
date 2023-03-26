@@ -1,4 +1,9 @@
+import { Link } from "react-router-dom";
 const Gallery = () => {
-  return <>примеры работ</>;
+  return (
+    <>
+      <Link> Installation art</Link>
+    </>
+  );
 };
 export default Gallery;
