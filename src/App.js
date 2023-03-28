@@ -2,9 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import HomePageView from "./views/HomePageView/HomePageView";
 import Layout from "./components/Layout";
-import About from "./components/About";
-import Gallery from "./components/Gallery/Gallery";
-import Contacts from "./components/Contacts/Contacts";
+import AboutPageView from "./views/AboutPageView";
+import PortfolioPageView from "./views/PortfolioPageView";
+import ContactsPageView from "./views/ContactsPageView";
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePageView />} />
-          <Route path="about" element={<About />} />
-          <Route path="gallery" element={<Gallery />} />
-          <Route path="contacts" element={<Contacts />} />
+          <Route path="about" element={<AboutPageView />} />
+          <Route path="gallery" element={<PortfolioPageView />} />
+          <Route path="contacts" element={<ContactsPageView />} />
         </Route>
       </Routes>
     </>
