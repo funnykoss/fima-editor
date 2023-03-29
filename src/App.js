@@ -7,6 +7,7 @@ import PortfolioPageView from "./views/PortfolioPageView";
 import ContactsPageView from "./views/ContactsPageView";
 import InstallationArtPageView from "./views/InstallationArtPageView";
 import VideoArtPageView from "./views/VideoArtPageView";
+import DocumentaryPageView from "./views/DocumentaryPageView";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             element={<InstallationArtPageView />}
           />
           <Route path="gallery/video" element={<VideoArtPageView />} />
+          <Route path="gallery/documentary" element={<DocumentaryPageView />} />
           <Route path="contacts" element={<ContactsPageView />} />
         </Route>
       </Routes>

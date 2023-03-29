@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "name": "Installation “Parts”",
+        "year": "2022",
+        "Exhibition": "Exhibition",
+        "title": "2022 – BORDER_LINE, a group-exhibition as part of the Artists-in-Residence program at VILLA MÜLLER, (Austria, Feldkirch)",
+        "description": "When I was a small child and was crying, my mother took a small glass bottle and put it to my cheek to collected my tears. Why? My mother said that this was for tears not to disappear without a trace but for her to collect all my grief. With the start of the full-scale war I collected dozens of imaginary bottles, put them in my luggage and took them everywhere I went. Like each and every one of us.",
+        "img1": "src/images/Gallery/Installation art/Parts/1_Parts.png",
+        "img2": "src/images/Gallery/Installation art/Parts/2_Parts.png",
+        "img3": "src/images/Gallery/Installation art/Parts/3_Parts.png",
+        "img4": "src/images/Gallery/Installation art/Parts/4_Parts.png"
+    },
+    {
+        "id": 2,
+        "name": "Video installation “Extent”",
+        "year": "2022",
+        "Exhibition": "Exhibition",
+        "title": "2022 – BORDER_LINE, a group-exhibition as part of the Artists-in-Residence program at VILLA MÜLLER, (Austria, Feldkirch)",
+        "description": "With the beginning of full-scale war while looking attentively into the faces of fearful people leaving their homes and taking with them only sadness and despair, seeing the scale of the destruction and the number of tragedies I felt how emptiness appeared in me. And it is growing every day. As if there are no boundaries where she would stop. And the day comes when you see nothing behind this emptiness and as if you are all emptiness, and the body is only its contour. Diary fragment: 27th day of the full-scale war, Kyiv“ I found myself at a point where there seems to be no past or future — one continuous emptiness. There is no time or events, the world has frozen and turned into a view from the window, and there is no other world. Maybe there is no more world out there. Maybe we, the ones who are waiting here in this apartment, are the only thing that this world has. Such a limbo on the Kharkiv massif”.VisualizationIn a darkened room, there is a projection screen on which the video is projected. When the visitor enters the centre, he sees the video in front of him, and also through the transparent screen it is projected on the visitor himself. Thus, the viewer not only watches the video, but also becomes part of the installation. In the video: The streets of Kiev in the wartime and peaceful life of the small town of Feldkirch in Austria. At the beginning we see the frame in full and then in the middle there is a black smog, which grows bigger with every new frame and by the end of the video it completely overlaps the video, leaving only the black screen.",
+        "link": "https://www.youtube.com/watch?v=Id52VoqIvvQ&ab_channel=4x2"
+    },
+    {
+        "id": 3,
+        "name": "Video installation “Come in”",
+        "year": "2020",
+        "Exhibition": "Exhibition",
+        "title": "2020 - ARTLAB exhibition of the NGO “KyivPride” (Kyiv, IZONE) ",
+        "description": "Purpose: To make one of the parts of LGBT+ people's lives visible, namely household. To convey to the viewer the absurdity of dividing people into “own” and “foreign”, “normal” and “strange” by portraying everyday life. After all, the water in the kettle boils equally. With the help of scenery, we immerse the audience in the atmosphere of the corridor of a high-rise building with 5 doors. Behind every door, viewers are looking at a new story, a video interview, which they can see through the peephole. Meaning, the viewer actually looks into the lives of the characters and witnesses a “conversation in the kitchen.” Visualization:The installation looks like the decoration of a long corridor with several doors. Approaching each door, spectators have the opportunity to look into the peephole. There is a video broadcast “in the peephole.” Each video is an interview with members of the LGBT+ community. But it does not look like a classic interview where the characters sit in front of the cameras. The text is covered with the videos from the flats of the interviewees, their construction, interior, supplies, and everyday stuff",
+        "img1": "src/images/Gallery/Installation art/Come in/1_Come in.png",
+        "img2": "src/images/Gallery/Installation art/Come in/2_Come in.png",
+        "img3": "src/images/Gallery/Installation art/Come in/Stills from the interviews/1_Stills.png",
+        "img4": "src/images/Gallery/Installation art/Come in/Stills from the interviews/2_Stills.png",
+        "img5": "src/images/Gallery/Installation art/Come in/Stills from the interviews/3_Stills.png",
+        "img6": "src/images/Gallery/Installation art/Come in/Stills from the interviews/4_Stills.png",
+        "img7": "src/images/Gallery/Installation art/Come in/Stills from the interviews/5_Stills.png",
+        "img8": "src/images/Gallery/Installation art/Come in/Stills from the interviews/6_Stills.png"
+    },
+    {
+        "id": 4,
+        "name": "Video installation “Ash”",
+        "year": "2022",
+        "Exhibition": "Exhibition",
+        "title": "MOMENT OF CONNECTION, MOOS Space(Berlin) NAIBUDEKINO Festival, Film Studio named after Dovzhenko (Kyiv)",
+        "description": "My friend, who left occupied Kherson in July, told me a story. At night, the air near her house becomes unbearable, a terrible stench penetrates the house and fills everything around. And ash falls on the yard of her house, which has to be swept every morning. And all this is the result of the work of the crematorium, which was organized by the occupying russian forces to burn the bodies of the fallen invaders. The smell is so persistent that even after five days on the road, her things retained the smell of burnt bodies. The people who came to destroy us were themselves destroyed and turned into ashes that fell into our land and they remained in it, in particles that cannot be removed and after death they did not leave it. Now their death is part of our ecosystem. Visualization: On the white wall hang three photos (from the heroine's personal archive). A video is projected onto the wall with photos.",
+        "img1": "src/images/Gallery/Installation art/Ash/1_Ash.png"
+    }
+]
