@@ -1,8 +1,9 @@
-import InstallationArtPageView from "../InstallationArtPageView";
+import { Link } from "react-router-dom";
 const PortfolioPageView = () => {
   return (
     <>
-      <InstallationArtPageView />
+      <Link to={{ pathname: "installation" }}>Installation Art</Link>
+      <Link to={{ pathname: "video" }}>Video Art</Link>
     </>
   );
 };
