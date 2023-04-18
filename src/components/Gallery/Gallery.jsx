@@ -1,8 +1,35 @@
-import { Link } from "react-router-dom";
-const Gallery = () => {
+import GalleryItem from "./GalleryItem";
+
+const Gallery = ({ list }) => {
   return (
     <>
-      <Link> Installation art</Link>
+      <ul>
+        {list.map(
+          ({
+            id,
+            nameart,
+            year,
+            title,
+            description,
+            exhibition,
+            link,
+            img,
+          }) => {
+            return (
+              <GalleryItem
+                key={id}
+                nameart={nameart}
+                // year={year}
+                // exhibition={exhibition}
+                // title={title}
+                // description={description}
+                // img={img}
+                // link={link}
+              />
+            );
+          },
+        )}
+      </ul>
     </>
   );
 };
