@@ -1,3 +1,5 @@
+import GalleryPhoto from "./GalleryPhoto";
+
 const GalleryItem = ({ list }) => {
   return (
     <>
@@ -21,7 +23,13 @@ const GalleryItem = ({ list }) => {
                 <p>{title}</p>
                 <p>{description}</p>
                 <a href={link}>пример</a>
-                <img src={img} alt="foto" />
+                <ul>
+                  {list.forEach(({ img }) => (
+                    <li>
+                      <img src={img} alt="фото" />
+                    </li>
+                  ))}
+                </ul>
               </li>
             );
           },
