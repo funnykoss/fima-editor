@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "When will the winter of 2022 end?",
+        "year": "2022",
+        "country": "Ukraine",
+        "Duration": "23’16",
+        "Director": "Hanna Trofimova",
+        "photography": "Hanna Trofimova",
+        "editing": "Hanna Trofimova",
+        "description": "With the beginning of the full-scale war of the russian federation against Ukraine I was in Kyiv filming what was happening to me and the people around me. I filmed my observations of others from my balcony, walked the streets, stood in the shop line and tried to put my life in a new reality. In the film I am reflecting on my feelings and life during a full-scale war. The film consists of videos I have been shooting during three months of full-scale war and my diary entries that I've been fixing all the time.",
+        "Trailer": "https://youtu.be/U0dDxT1mPEk"
+    },
+    {
+        "id": 2,
+        "name": "Lines?",
+        "year": "2023",
+        "country": "Ukraine",
+        "Duration": "41’49",
+        "Director": "Hanna Trofimova",
+        "photography": "Hanna Trofimova",
+        "editing": "Hanna Trofimova",
+        "description": "Three different stories of people from the LGBT community, united by one war line. Story of Kostyantyn, a volunteer and activist from Zaporizhia, who remained in his hometown. Story of Julia and Inna, a couple who left Irpin with their cat and moved to Berlin. And the story of Viktor, a photographer from Kharkiv who, became an internally displaced person with his parents. No matter what decision was made, the war left a deep mark on the lives of heroines and heroes. ",
+        "Trailer": "https://youtu.be/zNwB2S03YCw"
+    }
+]

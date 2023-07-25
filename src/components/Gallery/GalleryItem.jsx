@@ -14,40 +14,36 @@ const GalleryItem = ({ list }) => {
             exhibition,
             link,
             img,
+            country,
+            Duration,
+            Director,
+            photography,
+            editing,
+            Trailer,
           }) => {
             return (
-              <li key={id}>
-                <p>{nameart}</p>
-                <p>{year}</p>
-                <p>{exhibition}</p>
-                <p>{title}</p>
-                <p>{description}</p>
-                <a href={link}>пример</a>
-                <ul>
-                  {list.forEach(({ img }) => (
-                    <li>
-                      <img src={img} alt="фото" />
-                    </li>
-                  ))}
-                </ul>
-              </li>
+              <div key={id}>
+                <li>
+                  <p>{nameart}</p>
+                  <p>{year}</p>
+                  {exhibition && <p>{exhibition}</p>}
+                  {country && <p>{country}</p>}
+                  {Duration && <p>{Duration}</p>}
+                  {Director && <p>Director: {Director}</p>}
+                  {photography && <p>Photography: {photography}</p>}
+                  {editing && <p>Editing: {editing}</p>}
+                  {title && <p>{title}</p>}
+                  <p>{description}</p>
+                  {link && <a href={link}>пример</a>}
+                  {Trailer && <a href={Trailer}>Тейлер</a>}
+                </li>
+                <ul>{img && <GalleryPhoto img={img} />}</ul>
+              </div>
             );
           },
         )}
       </ul>
     </>
-    // <>
-
-    //   <li>
-    //     <p>{list.nameart}</p>
-    //     {/* <p>{list.year}</p>
-    //     <p>{list.exhibition}</p>
-    //     <p>{list.title}</p>
-    //     <p>{list.description}</p> */}
-    //     {/* <a href={list.link}>пример</a>
-    //     <img src={list.img} alt="foto" /> */}
-    //   </li>
-    // </>
   );
 };
 export default GalleryItem;
