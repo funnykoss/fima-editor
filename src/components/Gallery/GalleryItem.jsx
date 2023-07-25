@@ -3,8 +3,8 @@ import s from "./GalleryItem.module.css";
 
 const GalleryItem = ({ list }) => {
   return (
-    <div className={s.container}>
-      <ul className={s.imageGallery}>
+    <div>
+      <ul>
         {list.map(
           ({
             id,
@@ -38,7 +38,9 @@ const GalleryItem = ({ list }) => {
                   {link && <a href={link}>пример</a>}
                   {Trailer && <a href={Trailer}>Тейлер</a>}
                 </li>
-                <ul>{img && <GalleryPhoto img={img} />}</ul>
+                <ul className={s.container}>
+                  {img && <GalleryPhoto img={img} />}
+                </ul>
               </div>
             );
           },
