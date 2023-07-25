@@ -1,0 +1,17 @@
+.imageGallery { 
+display: flex; 
+flex-wrap: wrap;
+ justify-content: 
+center; gap: 10px; 
+} 
+.imageGallery > li { 
+flex-basis: 350px;
+ /* width: 350px; */ 
+} 
+.imageGallery li img { 
+object-fit: cover; 
+width: 50%; 
+height: 50%; 
+vertical-align: middle; 
+border-radius: 5px;
+ }

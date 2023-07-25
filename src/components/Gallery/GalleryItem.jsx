@@ -1,9 +1,10 @@
 import GalleryPhoto from "./GalleryPhoto";
+import s from "./GalleryItem.module.css";
 
 const GalleryItem = ({ list }) => {
   return (
-    <>
-      <ul>
+    <div className={s.container}>
+      <ul className={s.imageGallery}>
         {list.map(
           ({
             id,
@@ -43,7 +44,7 @@ const GalleryItem = ({ list }) => {
           },
         )}
       </ul>
-    </>
+    </div>
   );
 };
 export default GalleryItem;
