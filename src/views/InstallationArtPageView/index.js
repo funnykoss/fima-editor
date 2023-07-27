@@ -1,1 +1,1 @@
-export { default } from "./ InstallationArtPageView";
+export { default } from "./InstallationArtPageView";
