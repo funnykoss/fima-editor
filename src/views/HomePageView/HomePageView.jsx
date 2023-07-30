@@ -1,12 +1,13 @@
 import heroImage from "../../images/heroImg.jpg";
 import s from "./HomePageView.module.css";
+import Container from "../../components/Container";
 const HomePageView = () => {
   return (
-    <section className={s.section}>
-      <div className={s.img}>
-        <img src={heroImage} alt="heroImg" />
-      </div>
-    </section>
+    <Container>
+      <section className={s.section}>
+        <div className={s.sectionDiv}>{/* <p>Title</p> */}</div>
+      </section>
+    </Container>
   );
 };
 export default HomePageView;

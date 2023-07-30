@@ -4,4 +4,9 @@
 .section{
     padding-bottom: 30px;
     padding-top: 30px;
+    
+}
+.sectionDiv{
+    height: 100hv;
+    width: 1200px;
 }
