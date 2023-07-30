@@ -1,6 +1,6 @@
-/* .navLink{
-    text-decoration: none;
-} */
+.navLink{
+    color: bisque;
+}
 .navList{
  display: flex;
  flex-direction: column;
@@ -14,4 +14,13 @@
 
 .navItem:not(:last-child){
 margin-bottom: 50px;
+}
+.sidebarBrand{
+    background-color: antiquewhite;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+.activeLink{
+        text-decoration: none;
+        color: rgb(170, 247, 249);
 }

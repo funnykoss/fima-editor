@@ -5,20 +5,55 @@ const Navigation = () => {
     <nav className={s.navbarInverse}>
       <ul className={s.navList}>
         <div className={s.sidebarHeader}>
-          <div className={s.sidebarBrand}>
-            <NavLink to="/">FIMA</NavLink>
-          </div>
+          {/* <div className={s.sidebarBrand}>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.navLink
+              }
+            >
+              FIMA
+            </NavLink>
+          </div> */}
           <li className={s.navItem}>
-            <NavLink to="/">Home</NavLink>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.navLink
+              }
+            >
+              Home
+            </NavLink>
           </li>
           <li className={s.navItem}>
-            <NavLink to="/about">About</NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.navLink
+              }
+            >
+              About
+            </NavLink>
           </li>
           <li className={s.navItem}>
-            <NavLink to="/gallery">Gallery</NavLink>
+            <NavLink
+              to="/gallery"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.navLink
+              }
+            >
+              Gallery
+            </NavLink>
           </li>
           <li className={s.navItem}>
-            <NavLink to="/contacts">Contacts</NavLink>
+            <NavLink
+              to="/contacts"
+              className={({ isActive }) =>
+                isActive ? s.activeLink : s.navLink
+              }
+            >
+              Contacts
+            </NavLink>
           </li>
         </div>
       </ul>
