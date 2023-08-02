@@ -4,11 +4,9 @@ import s from "./AboutPageView.module.css";
 
 const AboutPageView = () => {
   return (
-    <Container>
-      <section className={s.section}>
-        <About />
-      </section>
-    </Container>
+    <section className={s.section}>
+      <About />
+    </section>
   );
 };
 export default AboutPageView;
